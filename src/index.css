@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Tailwind Styles */
+
+.black_btn {
+    @apply rounded-full border border-black bg-black text-white p-1.5 hover:bg-white hover:text-black transition-all px-5 mr-5
+}
