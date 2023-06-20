@@ -7,3 +7,11 @@
 .black_btn {
     @apply rounded-full border border-black bg-black text-white p-1.5 hover:bg-white hover:text-black transition-all px-5 mr-5
 }
+
+.search_input {
+    @apply block w-full rounded-md border border-gray-200 bg-white py-2.5 pl-10 pr-12 text-sm shadow-lg font-medium focus:border-black focus:outline-none focus:ring-0;
+}
+
+.submit_btn {
+    @apply hover:border-gray-700 hover:text-gray-700 border rounded border-gray-200 font-sans font-medium text-gray-400 py-2 px-3 absolute right-[20%]
+}
