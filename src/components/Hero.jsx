@@ -1,5 +1,6 @@
 import React from 'react'
 import { BiSearch } from 'react-icons/bi'
+import HeroItems from './HeroItems'
 
 const Hero = () => {
     return (
@@ -15,6 +16,12 @@ const Hero = () => {
                     Enter
                 </button>
             </form>
+
+            {/* Result */}
+            <div className='grid grid-cols-2 gap-8 mx-64 my-5'>
+                <HeroItems />
+                <HeroItems />
+            </div>
         </section>
     )
 }
